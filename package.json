@@ -1,0 +1,17 @@
+{
+  "name": "docker-php-samples",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "browser": "open-cli http://localhost:8080",
+    "start-server": "nodemon --watch src -e * --exec \"docker-compose up --build\"",
+    "start": "npm run browser && npm run start-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "open-cli": "^6.0.1"
+  }
+}
