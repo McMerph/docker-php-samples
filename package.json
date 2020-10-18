@@ -6,6 +6,8 @@
     "browser": "open-cli http://localhost:8080",
     "start-server": "nodemon --watch src -e * --exec \"docker-compose up --build\"",
     "start": "npm run browser && npm run start-server",
+    "to-terminal:win": "powershell ./scripts/to-terminal.ps1",
+    "to-terminal:sh": "sh ./scripts/to-terminal.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
