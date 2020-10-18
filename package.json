@@ -1,7 +1,7 @@
 {
   "name": "docker-php-samples",
   "version": "1.0.0",
-  "description": "",
+  "description": "Docker PHP Samples",
   "scripts": {
     "browser": "open-cli http://localhost:8080",
     "start-server": "nodemon --watch src -e * --exec \"docker-compose up --build\"",
